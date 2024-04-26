@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name" translatable="false">My Application</string>
+    <string name="us_para_r">US$ para R$</string>
+    <string name="r_para_us">R$ para US$</string>
+</resources>
