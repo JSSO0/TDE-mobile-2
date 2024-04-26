@@ -17,7 +17,7 @@ class ConversorDolar : AppCompatActivity() {
 
         binding.botaoreal.setOnClickListener {
             if (binding.real.text.toString().isEmpty()) {
-                Toast.makeText(applicationContext, "Digite um valor para converter", Toast.LENGTH_SHORT).show()
+                Toast.makeText(applicationContext, "Digite um valor para converter!", Toast.LENGTH_SHORT).show()
             } else {
                 val dolar: Float = binding.real.text.toString().toFloat()
                 val real: Double = dolar * 4.99;
